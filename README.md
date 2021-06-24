@@ -83,18 +83,18 @@ Main.cpp uses following functional interfaces to interact with the coffee machin
 
 
 # EXPLANATION:
-Store contains following ingredients
-Milk 20 ml
-Water 300 ml
-Ginger Syrup 50 ml
-Sugar Syrup 60 ml
-Tea leaves syrup 30 ml
+Store contains following ingredients:-<br>
+Milk 20 ml<br>
+Water 300 ml<br>
+Ginger Syrup 50 ml<br>
+Sugar Syrup 60 ml<br>
+Tea leaves syrup 30 ml<br>
+<br>
+Available Outlets: 1 2 3 4 5 6 7 8 9 10<br>
 
-Available Outlets: 1 2 3 4 5 6 7 8 9 10
-
-Task 1: 
+## Task 1: 
     Prepare Black tea
-        Black tea requires 
+        Black tea requires
             water 300 ml
             ginger_syrup 30
             sugar_syrup 50
@@ -102,34 +102,34 @@ Task 1:
         These are present in the store is the black tea consumes the required ingredients.
         => black_tea is being prepared at outlet number 1
 
-Now, the store contains:
-Milk 20 ml
-Water 300 - 300 = 0 ml
-Ginger Syrup 50 - 30 = 20 ml
-Sugar Syrup 60 - 50 = 10 ml
-Tea leaves syrup 30 - 30 = 0 ml
+Now, the store contains:-<br>
+Milk 20 ml<br>
+Water 300 - 300 = 0 ml<br>
+Ginger Syrup 50 - 30 = 20 ml<br>
+Sugar Syrup 60 - 50 = 10 ml<br>
+Tea leaves syrup 30 - 30 = 0 ml<br>
+<br>
+Available Outlets: 2 3 4 5 6 7 8 9 10<br>
 
-Available Outlets: 2 3 4 5 6 7 8 9 10
 
 
-
-Task 2:
+## Task 2:
     Prepare Tea:
     Remaining quantity of water in store is less than 300 ml (required for tea).
     => tea cannot be prepared because water is not sufficient
 
-Task 3:
+## Task 3:
     restock water 300:
 
-Now, the store contains:
-Milk 20 ml
-Water 0 + 300 = 300 ml
-Ginger Syrup 20 ml
-Sugar Syrup 10 ml
-Tea leaves syrup 0 ml
+Now, the store contains:<br>
+Milk 20 ml<br>
+Water 0 + 300 = 300 ml<br>
+Ginger Syrup 20 ml<br>
+Sugar Syrup 10 ml<br>
+Tea leaves syrup 0 ml<br>
 
 
-Task 4: 
+## Task 4: 
     Prepare Tea
     now the store contains sufficient quantity of required ingredients and first outlet is in use already.
     => tea is being prepared at outlet number 2
