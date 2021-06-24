@@ -51,40 +51,38 @@ Main.cpp uses following functional interfaces to interact with the coffee machin
     On running the main.cpp, the output will be generated and written to the file output.txt
 
 
-#SAMPLE INPUT:
-10
-5
-milk 20
-water 300
-ginger_syrup 50
-sugar_syrup 60
-tea_leaves_syrup 30
-2
-tea 2
-milk 10
-water 30
-black_tea 4
-water 300
-ginger_syrup 30
-sugar_syrup 50
-tea_leaves_syrup 30
-4
-prepare black_tea
-prepare tea
-restock water 300
-prepare tea
+# SAMPLE INPUT:
+    10
+    5
+    milk 20
+    water 300
+    ginger_syrup 50
+    sugar_syrup 60
+    tea_leaves_syrup 30
+    2
+    tea 2
+    milk 10
+    water 30
+    black_tea 4
+    water 300
+    ginger_syrup 30
+    sugar_syrup 50
+    tea_leaves_syrup 30
+    4
+    prepare black_tea
+    prepare tea
+    restock water 300
+    prepare tea
 
 
-#SAMPLE OUTPUT:
-black_tea is being prepared at outlet number 1
-tea cannot be prepared because water is not sufficient
-tea is being prepared at outlet number 2
+# SAMPLE OUTPUT:
+    black_tea is being prepared at outlet number 1
+    tea cannot be prepared because water is not sufficient
+    tea is being prepared at outlet number 2
 
 
 
-#EXPLANATION:
-
-
+# EXPLANATION:
 Store contains following ingredients
 Milk 20 ml
 Water 300 ml
