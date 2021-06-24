@@ -1,0 +1,3 @@
+black_tea is being prepared at outlet number 1
+tea cannot be prepared because water is not sufficient
+tea is being prepared at outlet number 2

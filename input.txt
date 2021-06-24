@@ -1,0 +1,21 @@
+10
+5
+milk 20
+water 300
+ginger_syrup 50
+sugar_syrup 60
+tea_leaves_syrup 30
+2
+tea 2
+milk 10
+water 30
+black_tea 4
+water 300
+ginger_syrup 30
+sugar_syrup 50
+tea_leaves_syrup 30
+4
+prepare black_tea
+prepare tea
+restock water 300
+prepare tea
